@@ -1,18 +1,14 @@
 //Only change code below this line
 function rangeOfNumbers(startN, endN){
-    if (startN >= endN) {
-    console.log(“The starting number will always be less than or equal to the ending number!”);
-    } else if {
-(startN = endN)
-    return (startN); 
-    }
-else {
-(startN < endN) 
-   var Array = rangeOfNumbers (startN +1);
-   return Array.sort((a, b) => a-b);
+    if (startN > endN) {
+    return [“The starting number will always be less than or equal to the ending number!”];
+    } else if (startN == endN)
+    return [startN]; 
+    } else {
+   var Array = rangeOfNumbers(startN, endNum -1);
+   Array.push(endNum);
+   return Array;
     }        
-
-
 }
 //Only change code  above this line
 
