@@ -1,5 +1,5 @@
 //Only change code below this line
-    function rangeOfNumbers(n) {
+    function myCounters(n) {
         if (n < 1) {
         return [];
         } else {
@@ -11,9 +11,9 @@
 
 //Only change code  above this line
 
-console.log(rangeOfNumbers(-1));
-console.log(rangeOfNumbers(10));
-console.log(rangeOfNumbers(5));
-module.exports = rangeOfNumbers; 
+console.log(myCounter(-1));
+console.log(myCounter(10));
+console.log(myCounter(5));
+module.exports = myCounter; 
   
           
