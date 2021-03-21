@@ -1,5 +1,5 @@
 //Only change code below this line
-function rangeOfNumbers (startN, endN) {
+function rangeOfNumbers (num) {
     if (startN == endN) {
         return [startN]; 
     } else if   (startN > endN) {
