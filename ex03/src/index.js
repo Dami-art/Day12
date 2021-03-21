@@ -1,15 +1,16 @@
 //Only change code below this line
-function rangeOfNumbers(startN, endN){
-    if (startN > endN) {
-    return [“The starting number will always be less than or equal to the ending number!”];
-    } else if (startN == endN)
-    return [startN]; 
+function rangeOfNumbers (startN, endN) {
+    if (startN == endN) {
+        return [startN]; 
+    } else if   (startN > endN) {
+        return "The starting number" + " will always be less than or equal" + " to the ending number!";
     } else {
-   var Array = rangeOfNumbers(startN, endNum -1);
-   Array.push(endNum);
-   return Array;
-    }        
-}
+        const numbers = rangeOfNumbers (startN, endN-1);
+    numbers.push(endN);
+   return numbers;  
+    }  
+}      
+
 //Only change code  above this line
 
 console.log(rangeOfNumbers(1, 7));
